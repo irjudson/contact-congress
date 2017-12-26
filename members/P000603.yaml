@@ -90,8 +90,6 @@ contact_form:
         - value: document.querySelector("#edit-message").value = document.querySelector("#edit-message").value.replace(/"/g, '');
     - recaptcha:
         - value: true
-    - javascript:
-        - value: document.querySelector("#edit-submit--2").click();
     - wait:
         - value: 5
     - javascript:
